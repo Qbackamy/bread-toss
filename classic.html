@@ -291,7 +291,7 @@ function sfxTick(freq){
 
 /* ============================== CHARACTERS ============================== */
 const CHARACTERS = [
-  { id:'luca', name:'Luca', tag:'Tall, skinny, devoted to Richard Clarkson.',
+  { id:'luca', name:'Luca', tag:'Tall, skinny, devoted to Jeremy Clarkson.',
     skin:'#f2c9a0', hair:'#5b3a1e', height:1.06, width:.82 },
   { id:'nick', name:'Nick', tag:'Elbow ventilation for maximum aerodynamics.',
     skin:'#f7d3ae', hair:'#2e2318', height:.92, width:1.0 },
@@ -347,12 +347,12 @@ function drawCharacter(c, cx2, pose, t, scale){
     for(let y=torsoTop+8;y<torsoBot;y+=10){ cx2.moveTo(-16,y); cx2.lineTo(16,y); }
     cx2.stroke();
   }
-  if(c.id==='luca'){ // I ♥ Richard Clarkson tee
+  if(c.id==='luca'){ // I ♥ Jeremy Clarkson tee
     cx2.fillStyle = '#333'; cx2.font = 'bold 8px Trebuchet MS'; cx2.textAlign='center';
     cx2.fillText('I', 0, -96);
     cx2.fillStyle = '#e0392b'; cx2.font='10px Trebuchet MS'; cx2.fillText('♥', 0, -86);
     cx2.fillStyle = '#333'; cx2.font = 'bold 6px Trebuchet MS';
-    cx2.fillText('RICHARD', 0, -76); cx2.fillText('CLARKSON', 0, -68);
+    cx2.fillText('JEREMY', 0, -76); cx2.fillText('CLARKSON', 0, -68);
   }
   if(c.id==='nick'){ // shirt buttons + collar
     cx2.fillStyle = '#8aa7c2';

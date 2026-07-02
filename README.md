@@ -7,7 +7,7 @@ which bread — flies furthest.
 
 ## The athletes
 
-- **Luca** — tall, skinny, devoted to Richard Clarkson
+- **Luca** — tall, skinny, devoted to Jeremy Clarkson
 - **Nick** — elbow ventilation for maximum aerodynamics
 - **Massimo** — business up top, track & field down below
 - **Doug** — the new guy; comes with his own country music sting
